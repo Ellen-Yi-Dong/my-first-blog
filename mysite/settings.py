@@ -25,7 +25,7 @@ SECRET_KEY = 'n5i5^st5@rn3r7)b+5ab%p2%)m2tp_*^euke)bcb0vvj#%2nj4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'Ying.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'Ying.pythonanywhere.com',]
 
 
 # Application definition
@@ -120,8 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
-
 
 import dj_database_url
 DATABASES['default'] = dj_database_url.config()
